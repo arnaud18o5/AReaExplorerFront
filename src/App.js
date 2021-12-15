@@ -14,6 +14,7 @@ export default function App(){
     useEffect(() => {
         if(cookies.username === undefined){
             setLoggedInUser('false')
+            setCookie("isLogged", false, {path:'/'});
         }
         else{
             setLoggedInUser('true')
