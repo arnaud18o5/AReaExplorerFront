@@ -15,13 +15,14 @@ The application is hosted on GitHub pages : https://arnaud18o5.github.io/AReaExp
 
 ## Prerequisites
 
-For the moment, the user has to allows Cross Origin Resource Sharing (CORS) on his Web browser, by installing an extension like "Allow CORS: Access-Control-Allow-Origin" (https://mybrowseraddon.com/access-control-allow-origin.html) for example. The user needs to do this if he wants to be able to see the 3D objects of his items with Three.js. We are now working on a solution to avoid this.
+For the moment, the user has to allows Cross Origin Resource Sharing (CORS) on his Web browser, by installing an extension like [Allow CORS: Access-Control-Allow-Origin](https://mybrowseraddon.com/access-control-allow-origin.html) for example. The user needs to do this if he wants to be able to see the 3D objects of his items with Three.js. We are now working on a solution to avoid this.
 
 The user needs to have an account on the database.
 
 ## Instructions
 
 Click on this URL : https://arnaud18o5.github.io/AReaExplorerFront/
+
 Click on "Login" if you have already an account or "Sign-Up" if you don't:
     In login modal : Enter your informations (username and password)
     In Sign-up modal : Create your informations (username and password)
