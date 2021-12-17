@@ -43,8 +43,8 @@ When a point of interest is added to the database, the user can see it on the li
 
 ## Next features
 
-    * The possibility to edit the informations of a point of interest
-    * The possibility to display the point of interest on the item
-    * The possibility to set the location (lattitude and longitude) by clicking on a map
-    * Display toasts messages when something happens
-    * Add a home page to present the mobile application
+    - The possibility to edit the informations of a point of interest
+    - The possibility to display the point of interest on the item
+    - The possibility to set the location (lattitude and longitude) by clicking on a map
+    - Display toasts messages when something happens
+    - Add a home page to present the mobile application
