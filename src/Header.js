@@ -13,6 +13,9 @@ function Header(props) {
   const [isLogged, setIsLogged] = useState(props.isLogged);
   console.log(props.logged)
 
+  useEffect(() => {
+    setCookies(props.cookies);
+  }, [isLogged])
   /*useEffect(()=>{
     setCookies(props.cookies);
     cook = props.cookies;
@@ -139,7 +142,7 @@ function Header(props) {
             </div>
           </div>
           <div className="right-buttons d-flex justify-content-end">
-            <button className="btn btn-primary" onClick={disconnect}>{cookies.username}</button>
+            <button className="btn btn-primary" onClick={disconnect}>{props.cookies.username}</button>
           </div>
         </nav>
         </>

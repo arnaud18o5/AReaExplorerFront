@@ -44,6 +44,7 @@ controls.enableDamping = true
 
     
 const loader = new GLTFLoader()
+loader.setCrossOrigin("anonymous");
 loader.load(
     "https://lauriaristorage.blob.core.windows.net/" + props.link,
     function (gltf) {

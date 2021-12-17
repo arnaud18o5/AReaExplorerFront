@@ -34,7 +34,8 @@ function Workspace(props){
     function refreshItemsList(){
         fetch("https://lauriari-arvr.azurewebsites.net/aritem/contentmanager",{
             method: 'GET',
-            headers:{'Authorization':'Bearer ' +props.cookies.token}}).then((response) => {
+            headers:{'Authorization':'Bearer ' +props.cookies.token}
+        }).then((response) => {
                 return response.json()})
                 .then((data) => {
                     setData(data);
